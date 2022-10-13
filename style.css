@@ -193,8 +193,8 @@ header.sticky{
 	font-size: 30px;
 	font-weight: 600;
 	text-align: right;
-	color: var(--bg-color);
-	top: 36px;
+	color: var(--main-color);
+	top: px;
 	right: 40px;
 }
 .dest-content{
@@ -317,10 +317,10 @@ border-radius: 15px;
 	padding: 20px 0;
 }
 .list{
-	width: 25%;
+	width: 20%;
 }
 .list h4{
-	font-size: 21px;
+	font-size: 35px;
 	color: var(--bg-color);
 	margin-bottom: 30px;
 	position: relative;
@@ -339,7 +339,7 @@ border-radius: 15px;
 }
 .list ul li a{
 	color: #ffffffbf;
-	font-size: var(--p-font);
+	font-size: 20px;
 	display: block;
 	transition: .3s;
 }
