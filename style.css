@@ -320,7 +320,7 @@ border-radius: 15px;
 	width: 20%;
 }
 .list h4{
-	font-size: 35px;
+	font-size: 25px;
 	color: var(--bg-color);
 	margin-bottom: 30px;
 	position: relative;
@@ -339,7 +339,7 @@ border-radius: 15px;
 }
 .list ul li a{
 	color: #ffffffbf;
-	font-size: 20px;
+	font-size: 15px;
 	display: block;
 	transition: .3s;
 }
