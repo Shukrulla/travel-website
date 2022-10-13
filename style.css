@@ -378,4 +378,50 @@ padding-top: 90px;
 		padding: 17px 3%;
 		transition: 0.2s;
 	}
+	header.sticky{
+		padding: 10px 3%;
+		transition: .2s;
+	}
+	section {
+		padding: 80px 3%;
+		transition: .2s;
+	}
+	:root{
+		--big-font: 4.5rem;
+		--h2-font: 2.3rem;
+		--p-font: 1rem;
+		transition: .2s;	
+	}
+}
+
+@media (max-width: 1040px) {
+	#menu-icon {
+		display:block;	
+	}
+	.sticky #menu-icon {
+		color: var(--text-color);
+	}
+	.home{
+		height: 88vh;
+	}
+	.navbar{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 270px;
+		height:120vh;
+		background:#1067cc;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 15px 30px;
+		transition: 0.5 all;
+	}
+	.navbar a{
+     display:block;
+	 margin: 1.2rem 0;
+	}
+	.sticky .navbar a{
+    color: var(--bg-color);
+	}
 }
